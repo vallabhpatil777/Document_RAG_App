@@ -32,7 +32,19 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Run the streamlit app : 
+
+### 5. Setup Groq Cloud API : 
+
+Link : https://console.groq.com/login
+
+### 6. Create .env file into the directory : 
+
+Copy paste your API key into the file and save it.
+```bash
+GROQ_API_KEY = "your_groq_api_key"
+```
+
+### 7. Run the streamlit app : 
 
 ```bash
 streamlit run main.py
