@@ -10,23 +10,30 @@ Open your terminal and run:
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+```
 
-1. git init
 
-2. Create Virtual Environment : 
+### 2. Create Virtual Environment : 
 
 For MacOS/Linux : 
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 For Windows :
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-3. Install required libraries : 
-
+### 3. Install required libraries : 
+```bash
 pip install -r requirements.txt
+```
 
-4. Run the streamlit app : 
+### 4. Run the streamlit app : 
 
+```bash
 streamlit run main.py
+```
