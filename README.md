@@ -10,6 +10,9 @@
 5. Different models can be selected to compare the responses.
 6. Session based approach used to avoid the overwriting of different document embeddings.
 
+## Usecases:
+PDF analyzer, resume summarization/analyzer, Document Q&A and many such summarization/ Q&A applications.
+
 ## Skills: 
 Python (Programming Language) · LangChain · Large Language Models (LLM) · Streamlit · Retrieval-Augmented Generation (RAG) · Vector database
 
@@ -61,3 +64,11 @@ GROQ_API_KEY = "your_groq_api_key"
 ```bash
 streamlit run main.py
 ```
+
+## Snapshots 
+
+### Below snapshot is an example that this application can be used for resume summarization. 
+
+![image](https://github.com/user-attachments/assets/51603929-9cdc-41df-a3f3-cd9625502493)
+
+![image](https://github.com/user-attachments/assets/2c7a9ce2-fe43-40d1-8faa-2adb0e5dbbd5)
